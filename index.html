@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="normalize.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="fonts.css" rel="stylesheet">
+	<link rel="icon" href="images/Favicon.png" type="image/x-icon">
+	<title>Профессиональный монтаж дымоходов любой сложности</title>
+</head>
+<body class="body">
+	<header class="header">
+		<div class="header__item header__title">
+			<a href="index.html" class="logo_href"><img src="images/Лого копия.png" alt="Логотип компании" class="logo"></a>
+			<p class="text"><span class="text_heavy">Профессиональный монтаж дымоходов</span> любой сложности на территории Киева и Киевской обл.</p>
+		</div>
+		<div class="header__map header__item">
+			<img src="images/map.png" class="map__icon">
+			<div class="map hidden" id="map">
+			</div>
+			<button class="text map__btn"><span class="text_heavy">Украина, Киев,</span> Васильковская 30</button>
+		</div>
+		<div class="header__lang header__item">
+			<p class="text">Сменить язык</p>
+			<div class="text">
+				<button class="lang__btn btn_active">RU</button>  <button class="lang__btn">UA</button>
+			</div>
+		</div>
+		<button class="header__ask btn_hl">
+			<p class="text_bold">Консультация инженера</p>
+		</button>
+		<div class="header__connect">
+			<img src="images/tel.png" class="connect__img">
+			<span class="text text_heavy connect__number">+38 067 242-58-78</span>
+			<div class="connect__soc">
+				<button class="soc soc_viber">
+					<img src="images/viber.png" class="soc__img">
+				</button>
+				<button class="soc soc_telega">
+					<img src="images/telega.png" class="soc__img">
+				</button>
+				<button class="soc soc_whatsup">
+					<img src="images/whatsup.png" class="soc__img">
+				</button>
+			</div>	
+		</div>
+		<div class="nav-top-menu">
+			<button class="close">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</header>
+	<nav class="nav">
+		<ul class="nav__list text_bold">
+			<li><a href="#" class="nav__item">КАЛЬКУЛЯТОР</a></li>
+			<li><a href="#" class="nav__item">УСЛУГИ</a></li>
+			<li><a href="#" class="nav__item">НАШИ НОВОСТИ</a></li>
+			<li><a href="#" class="nav__item">ОТЗЫВЫ</a></li>
+			<li><a href="#" class="nav__item">КОНСУЛЬТАЦИЯ</a></li>
+			<li><a href="#" class="nav__item">ПРЕИМУЩЕСТВА</a></li>
+			<li><a href="#" class="nav__item">ПРОИЗВОДСТВО</a></li>
+			<li><a href="#" class="nav__item">ВОПРОС-ОТВЕТ</a></li>
+			<li><a href="#" class="nav__item">КОНТАКТЫ</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section class="section">
+			<h1 class="title text_book"><span class="text_bold">Монтаж дымоходов из нержавеющей стали</span> для частных домов и предприятий</h1>
+			<div class="section__adv">
+				<div class="adv adv__exp">
+					<img src="images/something.png" class="adv__img">
+					<span class="text_heavy exp__number">15</span>
+					<p class="adv__text text_book"><span class="text_bold">лет устанавливаем дымоходы</span> для частных лиц и организаций</p>
+				</div>
+				<div class="adv adv__visit">
+					<img src="images/something.png" class="adv__img">
+					<p class="adv__text text_book"><span class="text_bold">Бесплатный выезд инженера</span> в пределах 30 км. от Киева</p>
+				</div>
+				<div class="adv adv__turnkey">
+					<img src="images/something.png" class="adv__img">
+					<p class="adv__text text_book"><span class="text_bold">Монтаж под ключ от 1 дня,</span> в наличии все разрешительные документ</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="section__calc">
+					<p class="text calc__desc">Рассчитайте стоимость монтажа вашего дымохода за 1 минуту и <span class="discount text_bold">получите скидку 15%</span></p>
+					<button class="calc__button btn_hl">
+						<img src="images/calc.png" class="calc__img">
+						<span class="calc__text text_bold">РАССЧИТАТЬ СТОИМОСТЬ МОНТАЖА И ПОЛУЧИТЬ СКИДКУ</span>
+					</button>
+				</div>
+				<div class="section__lic">
+					<p class="lic__text text_bold">Лицензии и сертификаты в наличии</p>
+					<div class="lic__slider">
+						<button><img src="images/1.png" class="lic__arrow  prev"></button>
+						<div class="lic__list">
+							<ul>
+								<li class="lic__li"><img src="images/lic1.jpg" class="lic__item" id="1"></li>
+								<li class="lic__li"><img src="images/lic2.jpg" class="lic__item" id="2"></li>
+								<li class="lic__li"><img src="images/lic3.jpg" class="lic__item" id="3"></li>
+								<li class="lic__li"><img src="images/lic4.jpg" class="lic__item" id="4"></li>
+								<li class="lic__li"><img src="images/lic5.jpg" class="lic__item" id="5"></li>
+								<li class="lic__li"><img src="images/lic6.jpg" class="lic__item" id="6"></li>
+							</ul>
+						</div>	
+						<button><img src="images/2.png" class="lic__arrow next"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=968e4a6e-3a64-4c87-95ea-fed7cbd62762&lang=ru_RU"
+	  type="text/javascript">
+	</script>
+	<script src="js.js"></script>
+</body>
+</html>
