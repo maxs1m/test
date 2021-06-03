@@ -391,6 +391,8 @@ a {
 
 .calc__button {
   border-radius: 0.26vw;
+  background-image: -moz-linear-gradient( 90deg, rgb(254,80,79) 0%, rgb(254,98,79) 56%, rgb(254,116,79) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(254,80,79) 0%, rgb(254,98,79) 56%, rgb(254,116,79) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(254,80,79) 0%, rgb(254,98,79) 56%, rgb(254,116,79) 100%);
   -webkit-box-shadow: 0px 19px 49px 0px rgba(254, 88, 81, 0.1),0px 4px 0px 0px rgba(230, 60, 60, 0.004);
           box-shadow: 0px 19px 49px 0px rgba(254, 88, 81, 0.1),0px 4px 0px 0px rgba(230, 60, 60, 0.004);
